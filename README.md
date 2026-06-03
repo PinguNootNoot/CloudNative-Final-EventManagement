@@ -92,13 +92,13 @@ npm test
 
 | 角色 | 值 | 說明 |
 |------|----|------|
-| `welfare_member` | `welfare_member` | 福委，可建立／更新／刪除活動 |
-| `user` | `user` | 包含一般員工和HR，唯讀活動資料 |
+| `welfare_member` | `welfare_member` | 福委成員，可建立／更新／刪除活動 |
+| `user` | `user` | 一般員工和HR，唯讀活動資料 |
 
 ### 各端點權限一覽
 
-| 端點 | welfare_member | employee |
-|------|:--------------:|:--------:|
+| 端點 | welfare_member | user |
+|------|:--------------:|:----:|
 | GET /v1/events | ✅ | ✅ |
 | GET /v1/events/:id | ✅ | ✅ |
 | POST /v1/events | ✅ | ❌ |
