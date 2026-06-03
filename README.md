@@ -98,7 +98,7 @@ npm test
 ### 各端點權限一覽
 
 | 端點 | welfare_member | employee |
-|------|:--------------:|:--------:|:--:|
+|------|:--------------:|:--------:|
 | GET /v1/events | ✅ | ✅ |
 | GET /v1/events/:id | ✅ | ✅ |
 | POST /v1/events | ✅ | ❌ |
